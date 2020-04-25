@@ -16,10 +16,13 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
+        
         Scanner input = new Scanner(System.in);
 
         int menu;
-        char kembali;
+        char kembali, pilihan;
+        
         do {
             System.out.println(":::::MENU:::::");
             System.out.println("1. Bangun Datar");
@@ -33,6 +36,24 @@ public class Main {
                     System.out.println("b. Tembereng Lingkaran");
                     System.out.println("c. Juring Lingkaran");
                     System.out.println("d. Busur Lingkaran");
+                    System.out.println("Silahkan Pilih Bangun datar : ");
+                    pilihan = input.next().charAt(0);
+                    switch (pilihan) {
+                        case 'a':
+                            System.out.println("\n:::::Lingkaran:::::");
+                            System.out.println("Input Jari-jari : ");
+                            double jari_jari = input.nextDouble();
+                            Lingkaran lingkaran = new Lingkaran(jari_jari);
+                            System.out.println("Luas Lingkaran = "+ lingkaran.luasLingkaran());
+                            System.out.println("Keliling Lingkaran = "+lingkaran.kelilingLingkaran());
+                            break;
+                        case 'b':
+                            break;
+                        case 'c':
+                            break;
+                        case 'd':
+                            break;
+                    }
                     break;
                 case 2:
                     System.out.println("\n:::::Bangun Ruang:::::");
