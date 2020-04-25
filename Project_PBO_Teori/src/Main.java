@@ -36,7 +36,7 @@ public class Main {
                     System.out.println("b. Tembereng Lingkaran");
                     System.out.println("c. Juring Lingkaran");
                     System.out.println("d. Busur Lingkaran");
-                    System.out.println("Silahkan Pilih Bangun datar : ");
+                    System.out.print("Silahkan Pilih Bangun datar : ");
                     pilihan = input.next().charAt(0);
                     switch (pilihan) {
                         case 'a':
