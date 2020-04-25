@@ -48,10 +48,13 @@ public class Main {
                             System.out.println("Keliling Lingkaran = "+lingkaran.kelilingLingkaran());
                             break;
                         case 'b':
+                            System.out.println("\n:::::Tembereng Lingkaran:::::");
                             break;
                         case 'c':
+                            System.out.println("\n:::::Juring Lingkaran:::::");
                             break;
                         case 'd':
+                            System.out.println("\n:::::Busur Lingkaran:::::");
                             break;
                     }
                     break;
