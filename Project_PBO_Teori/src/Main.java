@@ -27,7 +27,7 @@ public class Main {
             System.out.println(":::::MENU:::::");
             System.out.println("1. Bangun Datar");
             System.out.println("2. Bangun Ruang");
-            System.out.println("Silahkan Pilih : ");
+            System.out.print("Silahkan Pilih : ");
             menu = input.nextInt();
             switch (menu) {
                 case 1:
